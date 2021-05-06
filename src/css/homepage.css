@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.2fr;
+    grid-template-areas:  "sidebar about-me about-me about-me about-me"
+                          "sidebar skills skills skills skills"
+                          "sidebar projects projects projects projects"
+                          "sidebar footer footer footer footer"
+                          
+}
+
+.sidebar {
+    background-color: cadetblue;
+    grid-area: sidebar;
+}
+
+.footer {
+    background-color: darkcyan;
+    grid-area: footer;
+}
+
+.skills {
+    background-color: chocolate;
+    grid-area: skills;
+}
+
+.about-me {
+    background-color: aqua;
+    grid-area: about-me;
+}
+
+.projects {
+    background-color: bisque;
+    grid-area: projects;
+}

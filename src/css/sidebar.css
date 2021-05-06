@@ -8,7 +8,6 @@
                         "sidebar-bottom-content"
 }
 
-
 .sidebar-top-content {
     background: darkgreen;
     grid-area: sidebar-top-content;
@@ -34,4 +33,24 @@
     height: 150px;
     width: 150px;
     border: 2px solid #555;
+}
+
+.top-container h4 {
+    width: 300px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.middle-container {
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.middle-container ul {
+    text-align: left;
+    list-style-position: inside;
+    width: 150px;
+    margin: 0 auto;
+  
 }

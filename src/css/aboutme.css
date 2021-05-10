@@ -1,0 +1,43 @@
+.about-me-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "about-me-content about-me-image";
+    background-color: #F5F5F5;
+    height: 100%;
+}
+
+.about-me-content {
+    grid-area: about-me-content;
+    padding-left: 100px;
+}
+
+
+
+.about-me-content h5 {
+    width: 600px;
+    
+}
+
+.title {
+    width: 600px;
+    
+}
+
+.about-me-image {
+    grid-area: about-me-image;
+    
+}
+
+.about-me-photo {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.profile-buttons {
+    
+    width: 600px;
+    
+    
+}

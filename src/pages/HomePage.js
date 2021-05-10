@@ -6,6 +6,7 @@ import Footer from '../components/footer'
 import {Container} from 'react-bootstrap';
 
 import '../css/homepage.css';
+import '../css/aboutme.css';
 
 export default function HomePage() {
 

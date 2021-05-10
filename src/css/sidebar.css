@@ -1,3 +1,8 @@
+:root {
+    --sidebar-color: #2fcc9d;
+    --text-font: 'Lato', sans-serif;
+}
+
 .sidebar-grid {
     display: grid;
     height: 100vh;
@@ -5,21 +10,24 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "sidebar-top-content"
                          "sidebar-middle-content"
-                        "sidebar-bottom-content"
+                        "sidebar-bottom-content";
+
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 .sidebar-top-content {
-    background: darkgreen;
+    background: var(--sidebar-color);
     grid-area: sidebar-top-content;
 }
 
 .sidebar-middle-content {
-    background: darkgrey;
+    background: var(--sidebar-color);
     grid-area: sidebar-middle-content;
 }
 
 .sidebar-bottom-content {
-    background: brown;
+    background: var(--sidebar-color);
     grid-area: sidebar-bottom-content;
 }
 

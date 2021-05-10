@@ -1,0 +1,66 @@
+.skills-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "mini-bio mini-bio mini-bio mini-bio"
+                         "card-javascript card-java card-react card-css-html";
+
+    background-color: white;
+    padding-left: 100px;
+}
+
+.mini-bio {
+    grid-area: mini-bio;
+   
+}
+
+.mini-bio h3 {
+    border-left: 5px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.card-javascript{
+    grid-area: card-javascript;
+  
+}
+
+.card-java {
+    grid-area: card-java;
+}
+
+.card-react {
+    grid-area: card-react;
+}
+
+.card-css-html {
+    grid-area: card-css-html;
+}
+
+.html-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "html-icon css-icon"
+                          "html-description html-description";
+}
+
+
+.html-icon {
+    grid-area: html-icon;
+    
+}
+
+.css-icon {
+    grid-area: css-icon;
+  
+}
+
+.html-description {
+    grid-area: html-description;
+}
+
+.cards p {
+ 
+    margin-top: 30px;
+}

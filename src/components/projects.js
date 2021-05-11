@@ -13,30 +13,34 @@ export default function Projects() {
             <div className="recommerce">
                 <Card className="project-cards">
                     <Card.Img src="/recommerce.png"/>
-                    <Card.Title>Recommerce - Phone Reselling Platform</Card.Title>
-                    <Card.Text>
+                    <Card.Title className="card-title">Recommerce - Phone Reselling Platform</Card.Title>
+                    <Card.Text className="card-text">
                         <ul>
                             <li>Spring Boot</li>
                             <li>React</li>
-                            <li>JWT Authentication</li>
+                            <li id="note">This project is hosted on heroku. It takes a minute to bootup</li>
                         </ul>
                     </Card.Text>
-                    <Button>View Project</Button>
+                    <a className="project-link" href="https://recommerce-front-end.herokuapp.com/">
+                        <Button>View Project</Button>
+                    </a>
                 </Card>
             </div>
 
             <div className="news">
                 <Card className="project-cards">
-                    <Card.Img src="/news_page.png"/>
-                    <Card.Title>Daily News - Find trending articles</Card.Title>
-                    <Card.Text>
+                    <Card.Img src="/news.png"/>
+                    <Card.Title className="card-title">Daily News - Find Trending Articles</Card.Title>
+                    <Card.Text className="card-text">
                         <ul>
                             <li>React</li>
                             <li>Bootstrap</li>
                             <li>Javascript Promises</li>
                         </ul>
                     </Card.Text>
-                    <Button>View Project</Button>
+                    <a className="project-link" href="https://github.com/tonytoma1/News-Reporter">
+                        <Button>View Project</Button>
+                    </a>
                 </Card>
             </div>
         </div>

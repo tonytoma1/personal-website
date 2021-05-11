@@ -8,15 +8,23 @@ export default function AboutMe() {
                     complex scalable web apps. Want to know how I may help your project? 
                     Check out my project portfolio and online resume. </h5>
                 <div className="profile-buttons">
-                    <button className="portfolio-button"><i class="fas fa-laptop-code"></i>Portfolio</button>
-                    <button id="hire-me-button"><i class="far fa-id-badge"></i>Hire me</button>
+                <a href="https://github.com/tonytoma1">
+                    <button className="portfolio-button">
+                            <i class="fas fa-laptop-code"></i>Portfolio
+                    </button>
+                </a>
+                <a href="mailto: tonytoma4@outlook.com">
+                    <button id="hire-me-button">
+                        <i class="far fa-id-badge"></i>Hire me
+                    </button>
+                </a>
                 </div>
 
                 
 
            </div>
            <div className="about-me-image">
-                <img src="/placeholder.png" className="about-me-photo"/>
+                <img src="/photo.jpg" className="about-me-photo"/>
            </div>
         </div>
     )

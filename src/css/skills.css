@@ -1,3 +1,10 @@
+:root {
+    --sidebar-color: #58b48c;
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'Barlow', sans-serif;
+}
+
+
 .skills-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,15 +16,25 @@
     padding-left: 100px;
 }
 
+.skills-div p {
+    font-family: var(--body-font);
+}
+  
+
 .mini-bio {
     grid-area: mini-bio;
-   
+    margin-bottom: 15px;
 }
 
 .mini-bio h3 {
-    border-left: 5px solid black;
+    border-left: 5px solid var(--sidebar-color);
     padding-left: 10px;
     margin-top: 20px;
+    font-family: var(--header-font);
+}
+
+.mini-bio p {
+    font-family: var(--body-font);
 }
 
 .card-javascript{
@@ -25,16 +42,35 @@
   
 }
 
+.card-javascript i {
+    color: #e9d716;
+}
+
 .card-java {
     grid-area: card-java;
+}
+
+.card-java i {
+    color: #5382a1;
 }
 
 .card-react {
     grid-area: card-react;
 }
 
+.card-react {
+    color: #61dbfb;
+}
+
 .card-css-html {
     grid-area: card-css-html;
+}
+
+
+
+.icon-name {
+    font-size: 0.3em;
+    display: block;
 }
 
 .html-card {
@@ -48,12 +84,13 @@
 
 .html-icon {
     grid-area: html-icon;
+    color: #f16528;
     
 }
 
 .css-icon {
     grid-area: css-icon;
-  
+    color: #008fd5;
 }
 
 .html-description {

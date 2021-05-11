@@ -2,6 +2,7 @@
     --sidebar-color: #58b48c;
     --header-font: 'Inter', sans-serif;
     --body-font: 'Barlow', sans-serif;
+    --darker-font: #408567;
 }
 
 .sidebar-grid {
@@ -35,9 +36,19 @@
 .sidebar-top-content {
     background: var(--sidebar-color);
     grid-area: sidebar-top-content;
-    padding-top: 30px;
+    padding-top: 30px;    
    
 }
+
+.border {
+    border-bottom: 1px solid var(--darker-font);
+    width: 90%;
+   margin: 0 auto;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+
+
 
 .sidebar-middle-content {
     background: var(--sidebar-color);
@@ -84,4 +95,13 @@
 
 .middle-container li {
     padding-top: 10px;
+}
+
+.links {
+    text-decoration: underline;
+    color: white;
+}
+
+.links:hover {
+    color: #408567;
 }

@@ -1,3 +1,10 @@
+:root {
+    --sidebar-color: #58b48c;
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'Barlow', sans-serif;
+}
+
+
 .project-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,11 +19,25 @@
 }
 
 .project-description h3{
-    border-left: 5px solid black;
+    border-left: 5px solid var(--sidebar-color);
     padding-left: 10px;
     margin-top: 20px;
+    font-family: var(--header-font);
 }
 
+.project-description p {
+    font-family: var(--body-font);
+}
+
+.card-title {
+    font-family: var(--header-font);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.card-text {
+    font-family: var(--body-font);
+}
 
 .recommerce {
     grid-area: recommerce;
@@ -29,4 +50,31 @@
 .project-cards {
     width: 500px;
     border: 1px solid black;
+}
+
+.project-cards button {
+    border-color: var(--sidebar-color);
+    background-color: white;
+    color: var(--sidebar-color);
+    transition: background-color 0.5s ease;
+    font-family: var(--body-font);
+}
+
+.project-cards button:hover {
+    background-color: var(--sidebar-color);
+    border-color: var(--sidebar-color);
+
+}
+
+.project-link {
+    color: var(--sidebar-color);
+}
+
+.project-cards button {
+    width: 100%;
+}
+
+#note {
+    font-weight: bold;
+    text-decoration: underline;
 }

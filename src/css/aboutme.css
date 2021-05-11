@@ -20,7 +20,6 @@
 }
 
 
-
 .about-me-content h5 {
     width: 600px;
     font-family: var(--body-font);
@@ -43,8 +42,9 @@
 
 .about-me-photo {
     height: 280px;
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 .profile-buttons {

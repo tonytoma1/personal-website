@@ -1,6 +1,7 @@
 :root {
-    --sidebar-color: #2fcc9d;
-    --text-font: 'Lato', sans-serif;
+    --sidebar-color: #58b48c;
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'Barlow', sans-serif;
 }
 
 .sidebar-grid {
@@ -11,15 +12,30 @@
     grid-template-areas: "sidebar-top-content"
                          "sidebar-middle-content"
                         "sidebar-bottom-content";
-
-    font-family: 'Lato', sans-serif;
     color: white;
-    
+}
+
+#name {
+    font-family: var(--header-font);
+    font-size: 28px;
+}
+
+#links-header {
+    font-family: var(--header-font);
+    font-size: 28px;
+}
+
+.header {
+    font-family: var(--body-font);
+    font-size: 19px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .sidebar-top-content {
     background: var(--sidebar-color);
     grid-area: sidebar-top-content;
+    padding-top: 30px;
    
 }
 
@@ -61,6 +77,11 @@
     text-align: left;
     list-style-position: inside;
     width: 150px;
-    margin: 0 auto;
-  
+    margin-left: 130px;
+    font-size: 1.5em;
+    
+}
+
+.middle-container li {
+    padding-top: 10px;
 }

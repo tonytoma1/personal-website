@@ -1,3 +1,9 @@
+:root {
+    --sidebar-color: #58b48c;
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'Barlow', sans-serif;
+}
+
 .about-me-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,34 +16,63 @@
 .about-me-content {
     grid-area: about-me-content;
     padding-left: 100px;
+    padding-top: 30px;
 }
 
 
 
 .about-me-content h5 {
     width: 600px;
+    font-family: var(--body-font);
+    font-size: 1.5em;
     
 }
 
 .title {
     width: 600px;
+    font-family: var(--header-font);
     
 }
 
 .about-me-image {
     grid-area: about-me-image;
+    padding-top: 30px;
+    margin-bottom: 100px;
     
 }
 
 .about-me-photo {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 400px;
     margin: 0 auto;
 }
 
 .profile-buttons {
-    
     width: 600px;
-    
-    
+    margin-top: 30px;
+}
+
+.profile-buttons button {
+    width: 160px;
+    border-radius: 0.15em;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    font-family: var(--body-font);
+    background-color: var(--sidebar-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+}
+
+.profile-buttons i {
+    margin-right: 10px;
+}
+
+.portfolio-button {
+    margin-right: 20px;
+}
+
+#hire-me-button {
+    background-color: gray;
 }

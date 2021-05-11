@@ -8,8 +8,8 @@ export default function AboutMe() {
                     complex scalable web apps. Want to know how I may help your project? 
                     Check out my project portfolio and online resume. </h5>
                 <div className="profile-buttons">
-                    <button className="portfolio-button">View Portfolio</button>
-                    <button>Hire me</button>
+                    <button className="portfolio-button"><i class="fas fa-laptop-code"></i>Portfolio</button>
+                    <button id="hire-me-button"><i class="far fa-id-badge"></i>Hire me</button>
                 </div>
 
                 

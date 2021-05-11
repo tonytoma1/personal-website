@@ -1,0 +1,32 @@
+.project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: "project-description project-description"
+                         "recommerce news";
+    padding-left: 100px;
+}
+
+.project-description {
+    grid-area: project-description;
+}
+
+.project-description h3{
+    border-left: 5px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+.recommerce {
+    grid-area: recommerce;
+}
+
+.news {
+    grid-area: news;
+}
+
+.project-cards {
+    width: 500px;
+    border: 1px solid black;
+}

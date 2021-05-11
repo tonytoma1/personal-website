@@ -15,7 +15,7 @@ export default function HomePage() {
             <div className="sidebar">
                 <Sidebar/>
             </div>
-
+            
             <div className="skills">
                 <Skills/>
             </div>

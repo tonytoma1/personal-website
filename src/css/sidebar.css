@@ -14,11 +14,13 @@
 
     font-family: 'Lato', sans-serif;
     color: white;
+    
 }
 
 .sidebar-top-content {
     background: var(--sidebar-color);
     grid-area: sidebar-top-content;
+   
 }
 
 .sidebar-middle-content {

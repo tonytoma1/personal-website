@@ -12,26 +12,30 @@
 }
 
 .sidebar {
-    background-color: black;
+    background-color: #2fcc9d;
     grid-area: sidebar;
 }
 
 .footer {
     background-color: darkcyan;
     grid-area: footer;
+    
 }
 
 .skills {
     background-color: chocolate;
     grid-area: skills;
+    
 }
 
 .about-me {
     background-color: aqua;
     grid-area: about-me;
+    
 }
 
 .projects {
     background-color: bisque;
     grid-area: projects;
+    
 }

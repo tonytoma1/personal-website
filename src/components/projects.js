@@ -29,7 +29,7 @@ export default function Projects() {
 
             <div className="news">
                 <Card className="project-cards">
-                    <Card.Img src="/news.png"/>
+                    <Card.Img src="./personal-website/news.png"/>
                     <Card.Title className="card-title">Daily News - Find Trending Articles</Card.Title>
                     <Card.Text className="card-text">
                         <ul>

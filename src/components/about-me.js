@@ -24,7 +24,7 @@ export default function AboutMe() {
 
            </div>
            <div className="about-me-image">
-                <img src="/photo.jpg" className="about-me-photo"/>
+                <img src={`${process.env.PUBLIC_URL}/photo.jpg`} className="about-me-photo"/>
            </div>
         </div>
     )

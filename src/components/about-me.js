@@ -15,7 +15,7 @@ export default function AboutMe() {
                 </a>
                 <a href="mailto: tonytoma4@outlook.com">
                     <button id="hire-me-button">
-                        <i class="far fa-id-badge"></i>Hire me
+                        <i class="far fa-id-badge"></i>Contact Me
                     </button>
                 </a>
                 </div>

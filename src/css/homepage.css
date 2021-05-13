@@ -5,8 +5,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 0.2fr;
     grid-template-areas:  "sidebar about-me about-me about-me about-me about-me"
-                          "sidebar skills skills skills skills skills"
                           "sidebar projects projects projects projects projects"
+                          "sidebar skills skills skills skills skills"
                           "sidebar footer footer footer footer footer"
                           
 }

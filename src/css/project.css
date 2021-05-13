@@ -58,6 +58,8 @@
     color: var(--sidebar-color);
     transition: background-color 0.5s ease;
     font-family: var(--body-font);
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .project-cards button:hover {

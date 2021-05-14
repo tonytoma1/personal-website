@@ -8,7 +8,7 @@
                           "sidebar projects projects projects projects projects"
                           "sidebar skills skills skills skills skills"
                           "sidebar footer footer footer footer footer"
-                          
+
 }
 
 .sidebar {
@@ -19,23 +19,52 @@
 .footer {
     background-color: white;
     grid-area: footer;
-    
+
 }
 
 .skills {
     background-color: chocolate;
     grid-area: skills;
-    
+
 }
 
 .about-me {
     background-color: aqua;
     grid-area: about-me;
-    
+
 }
 
 .projects {
     background-color: white;
     grid-area: projects;
-    
+
+}
+
+
+@media (max-width: 800px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:  "sidebar" "about-me";
+
+    }
+
+    .projects {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .about-me {
+      height: 100vh;
+    }
+
+    .skills {
+        display: none;
+    }
+
+
 }

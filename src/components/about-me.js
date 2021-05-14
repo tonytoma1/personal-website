@@ -4,8 +4,8 @@ export default function AboutMe() {
         <div className="about-me-grid">
            <div className="about-me-content">
                 <h1 className="title">Tony Toma</h1>
-                <h5>I'm a software developer specialised in frontend and backend development for 
-                    complex scalable web apps. Want to know how I may help your project? 
+                <h5 className="about-me-text">I'm a software developer specialised in frontend and backend development for 
+                    complex scalable web apps. Want to know how I may help your project?
                     Check out my project portfolio and online resume. </h5>
                 <div className="profile-buttons">
                 <a href="https://github.com/tonytoma1">
@@ -20,7 +20,7 @@ export default function AboutMe() {
                 </a>
                 </div>
 
-                
+
 
            </div>
            <div className="about-me-image">

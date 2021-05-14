@@ -2,6 +2,7 @@
     --sidebar-color: #58b48c;
     --header-font: 'Inter', sans-serif;
     --body-font: 'Barlow', sans-serif;
+    --gray-background:  #F5F5F5;
 }
 
 .about-me-grid {
@@ -9,7 +10,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "about-me-content about-me-image";
-    background-color: #F5F5F5;
+    background-color: var(--gray-background);
     height: 100%;
 }
 
@@ -24,20 +25,20 @@
     width: 600px;
     font-family: var(--body-font);
     font-size: 1.5em;
-    
+
 }
 
 .title {
     width: 600px;
     font-family: var(--header-font);
-    
+
 }
 
 .about-me-image {
     grid-area: about-me-image;
     padding-top: 30px;
     margin-bottom: 100px;
-    
+
 }
 
 .about-me-photo {
@@ -75,4 +76,49 @@
 
 #hire-me-button {
     background-color: gray;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+  .about-me-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "about-me-image" "about-me-content";
+  }
+
+  .about-me-content {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .about-me-content h5 {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+ .about-me-image {
+   margin-bottom: 10px;
+   width: 80%;
+   margin: 0 auto;
+ }
+
+  .about-me-photo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .profile-buttons {
+    width: 100%;
+    background-color: var(--gray-background);
+  }
+
+
 }

@@ -45,13 +45,13 @@
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:  "sidebar" "about-me";
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:  "sidebar" "about-me" "projects";
 
     }
 
     .projects {
-        display: none;
+
     }
 
     .footer {
@@ -59,7 +59,7 @@
     }
 
     .about-me {
-      height: 100vh;
+    
     }
 
     .skills {

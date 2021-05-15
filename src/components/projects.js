@@ -7,8 +7,8 @@ export default function Projects() {
     return(
         <div className="project-div">
             <div className="project-description">
-                    <h3>Projects</h3>
-                    <p>Here are some of the projects i worked on.</p>
+                    <h3 id="project-title">Projects</h3>
+                    <p id="project-bio">Here are some of the projects i worked on.</p>
             </div>
             <div className="recommerce">
                 <Card className="project-cards">

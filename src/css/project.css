@@ -94,6 +94,7 @@
 
   .project-description {
     width: 80%;
+
   }
 
   .project-cards{
@@ -102,5 +103,9 @@
 
   .news {
     margin-top: 30px;
+  }
+
+  #project-title, #project-bio {
+    margin-left: 5px;
   }
 }

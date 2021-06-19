@@ -39,7 +39,7 @@ export default function Blog() {
                 <p> 
                     <a href="https://devtonytoma.blogspot.com/">
                     Too many calls to the blog api. Check back in a couple of minutes,
-                    or visit me blog here
+                    or visit me blog here.
                     </a>
                 </p>
             </div>

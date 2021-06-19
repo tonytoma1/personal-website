@@ -3,8 +3,9 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
     grid-template-areas:  "sidebar about-me about-me about-me about-me about-me"
+                          "sidebar blog blog blog blog blog"
                           "sidebar projects projects projects projects projects"
                           "sidebar skills skills skills skills skills"
                           "sidebar footer footer footer footer footer"
@@ -40,27 +41,25 @@
 
 }
 
+.blog {
+    grid-area: blog;
+}
+
 
 @media (max-width: 800px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:  "sidebar" "about-me" "projects";
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:  "sidebar" "about-me" "blog" "projects";
 
     }
 
-    .projects {
-
-    }
 
     .footer {
         display: none;
     }
 
-    .about-me {
-    
-    }
 
     .skills {
         display: none;

@@ -119,6 +119,9 @@
     outline: none;
 }
 
+.mobile-links {
+    display: none;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -161,5 +164,9 @@
  #links-header {
    display: none;
  }
+
+ .mobile-links {
+    display: block;
+}
 
 }

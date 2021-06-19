@@ -4,6 +4,7 @@ import Projects from '../components/projects';
 import Skills from '../components/skills';
 import Footer from '../components/footer'
 import {Container} from 'react-bootstrap';
+import Blog from '../components/blog';
 
 import '../css/homepage.css';
 import '../css/aboutme.css';
@@ -26,6 +27,10 @@ export default function HomePage() {
             
             <div className="projects">
                 <Projects/>
+            </div>
+
+            <div className="blog">
+                <Blog/>
             </div>
 
             <div className="footer">

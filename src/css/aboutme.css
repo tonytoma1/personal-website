@@ -30,7 +30,9 @@
 
 .title {
     width: 600px;
+    
     font-family: var(--header-font);
+    font-size: var(--font-size);
 
 }
 
@@ -96,8 +98,8 @@
   }
 
   .about-me-content h5 {
-    width: 80%;
-    text-align: left;
+    width: 300px;
+    text-align: center;
     margin: 0 auto;
   }
 
@@ -116,6 +118,7 @@
   .title {
     width: 100%;
     margin-top: 5px;
+    border: none;
   }
 
   .profile-buttons {

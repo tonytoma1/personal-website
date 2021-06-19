@@ -1,0 +1,9 @@
+:root {
+    --sidebar-color: #58b48c;
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'Barlow', sans-serif;
+    --font-size: 1.75em;
+    --padding-left: 100px;
+    --padding-top: 20px;
+}
+

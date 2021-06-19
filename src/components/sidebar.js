@@ -65,7 +65,7 @@ export default function Sidebar() {
         <div className="sidebar-grid">
             <div className="sidebar-top-content">
                 <div className="top-container">
-                    <img src={`${process.env.PUBLIC_URL}/self-photo.png`} />
+                    <img src={`${process.env.PUBLIC_URL}/self-photo2.png`} />
                     <h2 id="name">Tony Toma</h2>
                     <p className="header">Hello, I am Tony and I am a software developer from Canada</p>
                     <div className="border"></div>

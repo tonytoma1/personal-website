@@ -12,7 +12,7 @@ export default function Projects() {
             </div>
             <div className="recommerce">
                 <Card className="project-cards">
-                    <Card.Img src={`${process.env.PUBLIC_URL}/recommerce.png`}/>
+                    <Card.Img src={`${process.env.PUBLIC_URL}/recommerce2.png`}/>
                     <Card.Title className="card-title">Recommerce - Phone Reselling Platform</Card.Title>
                     <Card.Text className="card-text">
                         <ul>

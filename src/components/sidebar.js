@@ -12,7 +12,7 @@ function MobileLinks() {
               </a>
           </li>
           <li>
-              <a className="links" href={`${process.env.PUBLIC_URL}/Tony_Toma_Resume.rtf`} download>
+              <a className="links" href={`${process.env.PUBLIC_URL}/tony_toma_resume_web.pdf`} download>
                   <span class="fa-li"><i class="fas fa-id-badge"></i></span>Resume
               </a>
           </li>

@@ -40,7 +40,7 @@ function PersonalLinks() {
             </a>
         </li>
         <li>
-            <a className="links" href={`${process.env.PUBLIC_URL}/Tony_Toma_Resume.rtf`} download>
+            <a className="links" href={`${process.env.PUBLIC_URL}/tony_toma_resume_web.pdf`} download>
                 <span class="fa-li"><i class="fas fa-id-badge"></i></span>Resume
             </a>
         </li>
@@ -65,7 +65,7 @@ export default function Sidebar() {
         <div className="sidebar-grid">
             <div className="sidebar-top-content">
                 <div className="top-container">
-                    <img src={`${process.env.PUBLIC_URL}/self-photo2.png`} />
+                    <img src={`${process.env.PUBLIC_URL}/self-photo.png`} />
                     <h2 id="name">Tony Toma</h2>
                     <p className="header">Hello, I am Tony and I am a software developer from Canada</p>
                     <div className="border"></div>

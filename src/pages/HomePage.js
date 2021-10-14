@@ -28,10 +28,11 @@ export default function HomePage() {
             <div className="projects">
                 <Projects/>
             </div>
-
+            {/*
             <div className="blog">
                 <Blog/>
             </div>
+             */}
 
             <div className="footer">
                 <Footer/>
